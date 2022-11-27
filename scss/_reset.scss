@@ -1,0 +1,39 @@
+:root {
+    --bg-color: #000201;
+    --primary-text-color: #FFFFFF;
+    --second-text-color: #BDC2CB;
+    --bg-button-color: #3265EA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Archivo', sans-serif;
+    color: var(--primary-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
